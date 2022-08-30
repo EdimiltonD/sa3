@@ -1,0 +1,100 @@
+
+
+/*login*/
+
+.header-loging{
+    background-color: rgb(37, 35, 35);
+     
+}
+
+#logo-gameshop{
+    position: left;
+    margin-left: 42%;
+}
+
+#login {
+    background-color:rgb(73, 73, 73);
+}
+
+.login1{
+    position: center;
+    background: #242424;
+    height: 400px;
+    width: 400px;
+    margin-left: 35%;
+    border-radius: 10px;
+    margin-top: 1%;
+
+}
+
+#palavramestre{
+    list-style: none;
+    margin-top: 50px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    height: 30px;
+
+}
+
+#Usuario{
+    border: 0;
+    outline: 0;
+    display: flex;
+    background: #962323;
+    position: center;
+    margin-left: 40%;
+
+}
+
+#Senha{
+    border: 0; 
+    outline: 0;
+    display: flex;
+    background: #242424;
+}
+
+#text-user{    
+    position: absolute;
+    top: 40%;
+    margin-left: 1%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#text-pass{
+    position: absolute;
+    top: 53%;
+    margin-left: 2%;
+}
+
+#top-entrar{
+    position: initial;
+    top: 90%;
+    margin-left: 35%;
+    font-size: 30px;
+    
+}
+
+.coluna5{
+    position: relative;
+    top: 60px;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.entrar{
+    position: relative;
+    top: 40px;
+    left: 40%;
+}
+
+.box-quad{
+    position: relative;
+    margin-bottom: 4%;
+}
+
+
+
