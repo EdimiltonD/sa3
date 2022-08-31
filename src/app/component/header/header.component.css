@@ -1,0 +1,21 @@
+.container1 { 
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1366px;
+    background-color: rgb(73, 73, 73);
+}
+
+.menu {
+    width: 95%;
+    text-align: end;
+    padding-top: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font: bold;
+    margin-right: 30px;
+    justify-content: end;
+}

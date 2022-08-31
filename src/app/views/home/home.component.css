@@ -6,27 +6,6 @@
     display: flex;
     justify-content: center;
 }
-.container1 { 
-
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1366px;
-    background-color: rgb(73, 73, 73);
-}
-
-.menu {
-    width: 95%;
-    text-align: end;
-    padding-top: 20px;
-}
-
-.menu a{
-    color: white;
-    text-decoration: none;
-    font: bold;
-    margin-right: 30px;
-    justify-content: end;
-}
 
 .container2{
 
@@ -107,59 +86,7 @@ section .button{
 
 }
 
-footer{
-    background-color: rgb(88, 83, 83);
-}
 
-.rodape{
-    padding: 5px 0;
-    display: flex;
-    justify-content: space-between;
-
-    color: rgb(255, 255, 255);
-}
-
-.sociais{
-    width: 50%;
-}
-
-.sociais p{
-    font-family: 'Tittiluium Web';
-}
-
-.sociais form{
-    width: 100%;
-    display: flex;
-    justify-content:space-between;
-    margin-bottom: 10px;
-}
-
-.sociais input[type="email"]{
-    height: 30px;
-    width: 40%;
-    border-radius: 50px;
-    border-style: none;
-    text-indent: 5px;
-}
-
-.sociais button{
-    width: 20%;
-    color: white;
-    background-color: rgb(25, 0, 250);
-    border-radius: 30px;
-    border: none;
-}
-
-.siga{
-    display:flex;
-    justify-content: left;
-    flex-wrap: wrap;
-}
-
-.roda-pe{ 
-    width: 100px;
-
-}
     
 
 /*login*/
