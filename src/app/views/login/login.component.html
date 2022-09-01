@@ -9,18 +9,25 @@
             <div>
                 <p id="top-entrar">Entrar</p>
             </div>
-            <ul>
-                <li id="palavramestre"><input id="user" type="text" placeholder="Usuario"></li>
-                <li id="palavramestre"><input id="password" type="password" placeholder="Senha"></li>
-            </ul>
+           <form (ngSubmit)="receberDados()">
+            <div class="campo-label">
+                <label for="email">email</label>
+                <input type="email" name="email" placeholder="Ex.: email@gmail.com" [(ngModel)]="userModel.email" >
+                </div>
+              <div class="campo-label">
+                <label for="senha">senha></label>
+                <input type="password" name="passoword" id="senha" placeholder="Senha" [(ngModel)]="userModel.senha" >
+             </div>
             <div class="coluna4">
                 <p id="text-user">Usuário</p>  
             <div class="Senha">   
                 <p id="text-pass">Senha</p> 
                 </div> 
                 <div class ="entrar">
-                <input type="button" onclick="funcao1()" value="Entrar" />
+                <input type="submit" onclick="funcao1()" value="Entrar" />
                 </div>
+           </div>
+           </form>
             </div>
             <div class="coluna5">
                 <ul>
@@ -30,7 +37,7 @@
             </div>
         </div>
     </div>
-</div>
+
 
 
 
