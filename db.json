@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "nome": "edimilton",
+      "email": "edimilton@gmail.com",
+      "passoword": "edinho123",
+      "id": 1
+    },
+    {
+      "nome": "fernanda",
+      "email": "malaquias3@gmail.com",
+      "passoword": "marcos23",
+      "id": 3
+    },
+    {
+      "nome": "marcos",
+      "email": "opaui@gmail.com",
+      "passoword": "awawedinhoaw",
+      "id": 4
+    }
+  ]
+}
