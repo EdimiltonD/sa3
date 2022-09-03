@@ -82,6 +82,7 @@
     left: 15%;
     display: flex;
     align-items: center;
+    color: white;
     
 }
 
@@ -98,3 +99,26 @@
 
 
 
+.campo-label{
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    margin-left: 15%;
+
+}
+
+.coluna4{
+    color: white;
+    display: flex;
+    margin-top: 5%;
+}
+
+#text-user{
+    margin-left: 4%;
+}
+
+#text-pass{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
